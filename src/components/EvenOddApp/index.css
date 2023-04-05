@@ -1,0 +1,51 @@
+/* Write your CSS here */
+/* Write your CSS here */
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+  align-items: center;
+  border-radius: 12px;
+  font-family: 'Roboto';
+}
+
+.heading {
+  font-size: 40px;
+}
+
+.para-num {
+  color: #334155;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #ffffff;
+  width: 130px;
+  height: 33px;
+  border-radius: 10px;
+  border-color: #ffffff;
+  color: #334155;
+}
+
+.btn:hover {
+  border-color: black;
+  border-radius: 4px;
+}
+
+.para-details {
+  color: #334155;
+  font-size: 12px;
+  padding-top: 5px;
+}
